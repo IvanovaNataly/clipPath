@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="470">
+    <path fill="#dddddd" fill-rule="evenodd">
+    <animate
+            attributeName="d"
+            dur="3000ms"
+            repeatCount="indefinite"
+            values="M0-.001s171 414 791 414 532.514-334 1129-334V470H0V-.001z;
+                    M0 297.999s171 414 791 414c272.089 0 662-219.306 182-711.999h947v768H0V297.999z"/>
+</path>
+</svg>

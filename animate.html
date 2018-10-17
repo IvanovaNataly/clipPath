@@ -4,8 +4,19 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="style-clip.css">
+
+  <style>
+    .player-spectrum-bar {
+      display: inline-block;
+      width: 20px;
+      height: 102px;
+      background: #ad2a2a;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+    }
+  </style>
 </head>
+
 <body>
 <div class="wrapper">
   <!--<figure class="clip c1">-->
@@ -13,17 +24,11 @@
   <!--</figure>-->
   <!--<div id="follower" class="clip-circle"></div>-->
 
-  <div class="hero-image clip-svg"></div>
+  <!--<div class="hero-image "></div>-->
 
-  <svg width="0" height="0">
-    <defs>
-      <clipPath id="myClip">
-        <circle cx="750px" cy="500px" r="150" />
-      </clipPath>
-    </defs>
-  </svg>
+  <div class="player-spectrum-bar" data-scale="0.1" style="transform: matrix(1, 0, 0, 0.1, 0, 0);"></div>
 
 </div>
-<script src="script.js"></script>
+
 </body>
 </html>
