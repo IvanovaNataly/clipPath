@@ -1,0 +1,91 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section {
+  display: block; }
+
+body {
+  color: #555; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  text-align: center; }
+
+h2 {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center; }
+
+p {
+  padding: 10px 0 0;
+  color: #222;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+.wrap {
+  position: relative;
+  height: 100%; }
+
+.clip {
+  position: absolute;
+  -webkit-transition: all 1s ease;
+  z-index: 1; }
+
+.wrapper {
+  height: 100vh;
+  position: relative; }
+
+.hero-image {
+  height: 100%;
+  background-image: url("mall-illustration.png");
+  background-size: cover; }
+
+.clip-circle {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.2;
+  clip-path: circle(150px at 750px 100px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+
+.c1 {
+  top: 100px;
+  left: 0;
+  clip-path: circle(150px at center); }
+
+.c2 {
+  top: 250px;
+  left: 300px;
+  clip: rect(80px, 210px, 160px, 100px); }
+
+.c3 {
+  top: 60px;
+  left: 300px;
+  clip: rect(110px, 160px, 170px, 60px); }
+
+.c4 {
+  top: 100px;
+  left: 600px;
+  clip: rect(160px, 130px, 220px, 60px); }
+
+.c5 {
+  top: 400px;
+  left: 0px;
+  clip: rect(60px, 250px, 130px, 180px); }
+
+.c6 {
+  top: 400px;
+  left: 400px;
+  clip: rect(80px, 160px, 160px, 70px); }
+
+.clip:hover {
+  clip: rect(0, 400px, 260px, 0);
+  cursor: pointer;
+  z-index: 999; }
+
+/*# sourceMappingURL=styles.css.map */
