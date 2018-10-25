@@ -42,25 +42,26 @@ p {
     height: 100vh;
     position: relative;
 }
+//.hero-image {
+//    height: 100%;
+//    background-image: url("mall-illustration.png");
+//    background-size: cover;
+//}
 
-.hero-image {
-    height: 100%;
-    background-image: url("mall-illustration.png");
-    background-size: cover;
-}
-
-.clip-circle {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 0.2;
-    clip-path: circle(150px at 750px 100px);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
+//
+//.clip-circle {
+//    width: 100%;
+//    height: 100%;
+//    background-color: #fff;
+//    opacity: 0.2;
+//    //clip-path: circle(150px at 750px 100px);
+//    clip-path: url('#myClip');
+//    position: absolute;
+//    top: 0;
+//    right: 0;
+//    left: 0;
+//    bottom: 0;
+//}
 
 
 .c1 {

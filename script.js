@@ -1,9 +1,8 @@
 (function() {
-    var follower, init,  printout, timer;
+    var follower, radius;
 
-    follower = document.getElementById('follower');
-
-    printout = document.getElementById('printout');
+    follower = document.getElementById('path');
+    radius = 150;
 
     function mouseX(event) {
         return event.clientX;
@@ -14,26 +13,27 @@
     };
 
     function positionElement(event) {
-        var mouse;
+        var mouse, initialX, initialY, initial, oppositeX, oppositeY, data;
         mouse = {
             x: mouseX(event),
             y: mouseY(event)
         };
-        follower.style.clipPath = 'circle(150px at ' + mouse.x + 'px ' + mouse.y + 'px)';
+        initialX  = mouse.x + ',';
+        initialY  = mouse.y - radius;
+        initial   = initialX + initialY;
+        oppositeX = mouse.x - radius + ',';
+        oppositeY = mouse.y + ',';
 
-        // return follower.style.left = mouse.x + 'px';
+        data = 'M0,0H1920V768H0V0ZM'+ initial + 'A150,150,0,1,1,' + oppositeX + oppositeY + '150,150,0,0,1,'+ initial + 'Z';
+        follower.setAttribute("d", data);
     };
 
-    timer = false;
-
     window.onmousemove = function(e) {
-        console.log();
         var _event;
         _event = event;
         return timer = setTimeout(function() {
             return positionElement(_event);
-    }, 1);
+        }, 1);
     };
 
 }).call(this);
-
