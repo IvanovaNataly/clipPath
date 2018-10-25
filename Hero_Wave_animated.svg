@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="768">
+    <path fill="#dddddd" fill-rule="evenodd">
+    <animate
+            attributeName="d"
+            dur="5000ms"
+            repeatCount="indefinite"
+            values="
+                   M0,298
+                   c0,0,171,414,791,414
+                   s532.5-334,1129-334v183.1
+                    h947
+                   V768
+                   H0
+                   V298
+                   z;
+
+
+
+                    M0,298
+                    S171,712,791,712
+                    c272.09,0,662-219.306,182-712
+                    h947
+                    V768
+                    H0
+                    V298
+                    Z;"/>
+</path>
+</svg>

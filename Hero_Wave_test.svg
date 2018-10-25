@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="768">
+  
+ 
+ 
+  
+    <path fill="#dddddd" fill-rule="evenodd">
+    <animate
+            attributeName="d"
+            dur="5000ms"
+            repeatCount="indefinite"
+            values="
+                  M0,298
+                  c0,0,171,414,791,414
+                  c0,0,0,0,0,0
+                  c0,0,764,-40,600,-712
+                   h1920
+                   V768
+                   H0
+                   V298
+                   z;
+
+                  M0,298
+                  c0,0,171,414,791,414
+                   c0,0,0,0,0,0
+                   c0,0,764,-40,200,-712
+                   h1920
+                   V768
+                   H0
+                   V298
+                    Z;"/>
+</path>
+  <circle cx="0" cy="298" r="4" fill="red"/>
+  <circle cx="171" cy="712" r="4" fill="red"/>
+  <circle cx="791" cy="712" r="4" fill="red"/>
+  <circle cx="791" cy="712" r="4" fill="red"/>
+</svg>
