@@ -1,24 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="768">
-    <path fill="#dddddd" fill-rule="evenodd">
+    <path fill="#dddddd" fill-rule="evenodd" d="M0,298
+                     c0,0,171,414,791,414
+                    c0,0,200,15,352,-140
+                    c0,0,245,-240,-320,-712
+                      H1920
+                      V768
+                      H0
+                      V298
+                      z;">
     <animate
             attributeName="d"
-            dur="5000ms"
-            repeatCount="indefinite"
+            dur="800ms"
+            repeatCount="1"
             values="
-                 M0,298
-                 c0,0,171,414,791,414
-                 c0,0,323,8,532,-140
-                 c0,0,260,-210,597,-194
-                  H1920
-                  V768
-                  H0
-                  V298
-                  z;"/>
+                    M0,298
+                     c0,0,171,414,791,414
+                     c0,0,323,8,532,-140
+                     c0,0,260,-210,597,-194
+                      H1920
+                      V768
+                      H0
+                      V298
+                      z;
+
+                   M0,298
+                    c0,0,171,414,791,414
+                    c0,0,323,8,532,-140
+                    c0,0,260,-210,597,-712
+                     H1920
+                     V768
+                     H0
+                     V298
+                     z;
+
+                    M0,298
+                    c0,0,171,414,791,414
+                     c0,0,323,0,532,-140
+                    c0,0,304,-160,-100,-712
+                     H1920
+                     V768
+                     H0
+                     V298
+                     z;
+
+                      M0,298
+                     c0,0,171,414,791,414
+                    c0,0,200,15,352,-140
+                    c0,0,245,-240,-320,-712
+                      H1920
+                      V768
+                      H0
+                      V298
+                      z;"/>
 </path>
+    <!--first wave-->
     <!--<path fill="red"  style="fill-opacity: .15;" id="_-e-wave" data-name="-e-wave" class="cls-1" d="M0,298S171,712,791,712s532.51-334,1129-334V768H0V298Z"/>-->
-    <circle cx="0" cy="298" r="4" fill="red"/>
-    <circle cx="171" cy="712" r="4" fill="red"/>
-    <circle cx="791" cy="712" r="4" fill="red"/>
-    <circle cx="1323" cy="572" r="4" fill="red"/>
-    <circle cx="1920" cy="378" r="4" fill="red"/>
+    <!--second wave-->
+    <!--<path fill="red"  style="fill-opacity: .15;" id="_-e-wave_Closed" data-name="-e-wave_Closed" class="cls-1" d="M0,298S171,712,791,712c272.09,0,662-219.306,182-712h947V768H0V298Z"/>-->
+    <!--<circle cx="0" cy="298" r="4" fill="red"/>-->
+    <!--<circle cx="171" cy="712" r="4" fill="red"/>-->
+    <!--<circle cx="791" cy="712" r="4" fill="red"/>-->
+    <!--<circle cx="1323" cy="572" r="4" fill="red"/>-->
+    <!--<circle cx="1920" cy="378" r="4" fill="red"/>-->
+    <!--<circle cx="974" cy="0" r="4" fill="red"/>-->
 </svg>
