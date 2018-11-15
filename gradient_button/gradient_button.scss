@@ -1,0 +1,47 @@
+.button {
+    width: 206px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.bg-gradient {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    width: 98%;
+    height: 91%;
+    line-height: 36px;
+    background-color: #fff;
+    border-radius: 40px;
+    transition: background .5s ease;
+    cursor: pointer;
+    &:hover {
+        font-weight: 400;
+        color: #fff;
+        background-color: transparent;
+    }
+    &:before {
+        content: '';
+        display: block;
+        width: 206px;
+        height: 40px;
+        background-image: linear-gradient(to right, #7f7fd5, #86a8e7 48%, #91eae4);
+        border-radius: 40px;
+        mix-blend-mode: screen;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+//https://codepen.io/amberweinberg/pen/dzJERg?editors=1100
+//
+//https://css-tricks.com/how-to-do-knockout-text/
+//
+//https://css-tricks.com/snippets/css/gradient-text/
